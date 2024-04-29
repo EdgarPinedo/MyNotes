@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>My_Notes</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources\app_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Font\Poppins-Regular.ttf" />
+    <None Remove="Resources\add_icon.png" />
+    <None Remove="Resources\aligncenter_icon.png" />
+    <None Remove="Resources\alignjustify_icon.png" />
+    <None Remove="Resources\alignleft_icon.png" />
+    <None Remove="Resources\alignright_icon.png" />
+    <None Remove="Resources\app_icon.png" />
+    <None Remove="Resources\delete_icon.png" />
+    <None Remove="Resources\growfont_icon.png" />
+    <None Remove="Resources\list_icon.png" />
+    <None Remove="Resources\numlis_icon.png" />
+    <None Remove="Resources\save_icon.png" />
+    <None Remove="Resources\shrinkfont_icon.png" />
+    <None Remove="Resources\undo_icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\app_icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Font\Poppins-Regular.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\add_icon.png" />
+    <Resource Include="Resources\aligncenter_icon.png" />
+    <Resource Include="Resources\alignjustify_icon.png" />
+    <Resource Include="Resources\alignleft_icon.png" />
+    <Resource Include="Resources\alignright_icon.png" />
+    <Resource Include="Resources\app_icon.png" />
+    <Resource Include="Resources\delete_icon.png" />
+    <Resource Include="Resources\growfont_icon.png" />
+    <Resource Include="Resources\list_icon.png" />
+    <Resource Include="Resources\numlis_icon.png" />
+    <Resource Include="Resources\save_icon.png" />
+    <Resource Include="Resources\shrinkfont_icon.png" />
+    <Resource Include="Resources\undo_icon.png" />
+  </ItemGroup>
+
+</Project>
